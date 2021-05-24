@@ -4,7 +4,6 @@ import "./styles/card.scss";
 const Card = (props) => {
     const {character} = props;
     const {image, name, species} = character;
-    console.log("props", props)
     
     return (
     <div className="card-item">
